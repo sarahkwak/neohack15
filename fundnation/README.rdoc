@@ -1,11 +1,11 @@
-== README
+== Fundnation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+General description goes here.
 
 Things you may want to cover:
 
-* Ruby version
+* To view this app: you need to set start the server by typing rails s and then go to:
+localhost:3000
 
 * System dependencies
 
