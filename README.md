@@ -12,7 +12,7 @@
 
 #Organization project title   
 
-- Rebuild libary in Sichuan, China
+- Build libraries in rural China
 
 - Neohack2016
 
