@@ -8,18 +8,22 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/styles.css?v=1.0">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+<script type="text/javascript">
+  Stripe.setPublishableKey('pk_test_8E1Hz8IsSJ8w1XqoBJVEncc1');
+</script>
 </head>
 
 <body>
 <div class="container">
-  
+
    <!--  Header Section-->
   <div class="row header">
     <div class="col-xs-12 text-center">
       <h1>FundNation</h1>
     </div><!--end col-xs-12 text-center-->
   </div><!--end row header-->
-  
+
   <div class="row navigation-bar">
       <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
@@ -35,7 +39,7 @@
             <ul class="nav navbar-nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>  
+              <li><a href="#">Contact</a></li>
             </ul>
             <form class="navbar-form navbar-left pull-right" role="search">
               <div class="form-group">
@@ -56,18 +60,18 @@
       <p>Donec ultricies id arcu eu semper. Sed et nisl non nisl ullamcorper sollicitudin eget ac neque. Curabitur ullamcorper elementum mi, vel tempus urna consectetur vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam faucibus et ligula id dictum. Nunc ante quam, gravida et ornare nec, fermentum eu lectus. Aenean sagittis libero non est pulvinar, quis rutrum lacus vehicula. Vivamus aliquet, ex ac placerat rutrum, tortor magna scelerisque est, tempor fermentum neque odio non metus. Cras laoreet dolor a massa dapibus semper.</p>
     </div><!--end col-md-6 col-sm-6-->
   </div><!--end row content-->
-  
+
   <!--  Footer Area-->
   <div class="row footer">
     <div class="col-xs-12 text-center">
       <p>&copy; 2015 FundNation.</p>
     </div><!--end col-xs-12 text-center-->
   </div><!--end row footer-->
-  
+
 </div><!--end container-->
 
 <p class="p">Demo by Sarry Zheng, Sarah Kwak, Josie Zocca, Kelly Luce</a>.</p>
-  
+
 </div>
   <script src="js/scripts.js"></script>
 </body>

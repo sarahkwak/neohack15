@@ -5,6 +5,12 @@
 #banner {
     border-bottom: none;
     margin-top: -20px;
+    background-image: url("https://ununsplash.imgix.net/photo-1423766111988-c47a5ff6ed06?fit=crop&fm=jpg&q=75&w=1050");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 500px;
+    opacity: .9;
 }
 
 #banner h1 {
