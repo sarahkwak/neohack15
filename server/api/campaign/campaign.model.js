@@ -11,4 +11,5 @@ var CampaignSchema = new Schema({
   amt_raised: Number
 });
 
+
 module.exports = mongoose.model('Campaign', CampaignSchema);

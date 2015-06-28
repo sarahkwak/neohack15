@@ -4,8 +4,6 @@ angular.module('hacksApp')
   .controller('MainCtrl', function ($scope, $http) {
     $scope.awesomeThings = [];
 
-
-
     $http.get('/api/campaigns/').success(function(awesomeThings) {
       console.log(awesomeThings);
       $scope.awesomeThings = awesomeThings;
