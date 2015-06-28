@@ -1,3 +1,29 @@
-<div class="col-md-12">
-This is the campaign view.
+<div class="col-md-10 col-md-offset-1">
+
+  <div class="row content">
+    <div class="col-md-6 col-sm-6">
+      <img ng-src="{{campaign.image}}" alt="..." class="img-rounded">
+      <h3>{{campaign.title}}</h3>
+        <p>{{campaign.pitch}}</p>
+      </div><!--end col-md-6 col-sm-6-->
+      <div class="col-md-6 col-sm-6">
+        <h3>Fundraising Goal <strong> {{campaign.goal | currency}}</strong></h3>
+        <p>Donec ultricies id arcu eu semper. Sed et nisl non nisl ullamcorper sollicitudin eget ac neque. Curabitur ullamcorper elementum mi, vel tempus urna consectetur vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam faucibus et ligula id dictum. Nunc ante quam, gravida et ornare nec, fermentum eu lectus. Aenean sagittis libero non est pulvinar, quis rutrum lacus vehicula. Vivamus aliquet, ex ac placerat rutrum, tortor magna scelerisque est, tempor fermentum neque odio non metus. Cras laoreet dolor a massa dapibus semper.</p>
+
+        <div class="dropdown">
+          <a ng-href="/donate/{{campaign._id}}" class="btn btn-primary">Donate Now!</a>
+        <h3>Total Amount Raised:</h3>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow={{}}
+          aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            <span class="sr-only">70% Complete</span>
+          </div>
+        </div> <!--end progress bar-->
+        </div> <!--end caption-->
+      </div> <!--end thumbnail-->
+      </div> <!--end col-md-4 col-sm-6-->
+    </div><!--end col-md-6 col-sm-6-->
+  </div><!--end row content-->
+
+
 </div>
