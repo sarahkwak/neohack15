@@ -2,31 +2,81 @@
 
 <header class="hero-unit" id="banner">
   <div class="container">
-    <h1>'Allo, 'Allo!</h1>
-    <p class="lead">Kick-start your next web app with Angular Fullstack</p>
-    <img src="assets/images/yeoman.png" alt="I'm Yeoman">
+    <h1>Hi Kelly!</h1>
+    <p class="lead">Welcome to FundNation</p>
+    <!--INSERT LOGO HERE-->
   </div>
 </header>
 
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
-      <h1 class="page-header">Features:</h1>
-      <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="thing in awesomeThings">
-        <li>
-          <img ng-src="{{thing.image}}" class="img-responsive" />
-          <a ng-href="/campaign/{{thing._id}}" tooltip="{{thing._id}}">{{thing.title}}</a>
-          <p>{{thing.pitch}}</p>
-        </li>
-      </ul>
+      <div class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="thing in awesomeThings">
+        <img ng-src="{{thing.image}}" class="img-responsive" /></li>
+        <a ng-href="/campaign/{{thing._id}}" tooltip="{{thing._id}}">{{thing.title}}</a></h1>
+        <p>{{thing.pitch}}</p>
+      </div>
+      <!--  Content Area-->
+      <div class="row content">
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail">
+          <img src="..." alt="...">
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+            <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="70"
+          aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            <span class="sr-only">70% Complete</span>
+          </div>
+        </div> <!--end progress bar-->
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+          </div> <!--end caption-->
+        </div> <!--end thumbnail-->
+        </div> <!--end col-md-4 col-sm-6-->
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail">
+          <img src="..." alt="...">
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+            <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="70"
+          aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            <span class="sr-only">70% Complete</span>
+          </div>
+        </div> <!--end progress bar-->
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+          </div> <!--end caption-->
+        </div><!--end thumbnail-->
+        </div><!--end col-md-4 col-sm-6-->
+        <div class="col-md-4 col-sm-6">
+          <div class="thumbnail">
+          <img src="..." alt="...">
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+            <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="70"
+          aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            <span class="sr-only">70% Complete</span>
+          </div>
+        </div> <!--end progress bar-->
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+          </div><!--end caption-->
+        </div><!--end thumbnail-->
+        </div><!--end col-md-4 col-sm-6-->
+      </div><!--end row content-->
+>>>>>>> 53e4629b2b10c13c90e3f6e942b18cb925c20e3f
     </div>
   </div>
 </div>
 
-<footer class="footer">
-  <div class="container">
-      <p>Angular Fullstack v2.0.13 |
-        <a href="https://twitter.com/tyhenkel">@tyhenkel</a> |
-         <a href="https://github.com/DaftMonk/generator-angular-fullstack/issues?state=open">Issues</a></p>
-  </div>
-</footer>
+<!--  Footer Area-->
+  <div class="row footer">
+    <div class="col-xs-12 text-center">
+      <p>&copy; 2015 FundNation.</p>
+    </div><!--col-xs-12 text-center-->
+  </div><!--end row footer-->
+
+  <p class="p">Demo by Sarry Zheng, Sarah Kwak, Josie Zocca, Kelly Luce</a>.</p>

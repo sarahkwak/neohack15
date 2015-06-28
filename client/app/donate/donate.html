@@ -1,66 +1,59 @@
-<div class="col-md-10">
-  <h3>Your Donations</h3>
-  <h4>Select an Amount</h4>
+<div class="container bs-docs-container">
+  <h1>Your Donations</h1>
+  <h3>Select an Amount</h3>
 
   <div class="row">
-    <div class="col-xs-6">
+    <div class="col-xs-6 bs-docs-container">
       <form>
-        <div class="radio">
+        <div class="checkbox form-inline">
           <label>
             <input ng-click="amt_raised=amt_raised+10" type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
             Donate 10 dollars
           </label>
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            Donate 20 dollars
+          </label>
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+            Donate 30 dollars
+          </label>
         </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-          Donate 20 dollars
-        </label>
-      </div>
-      <div class="radio disabled">
-        <label>
-          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-          Donate 30 dollars
-        </label>
       <div class="form-group">
         <label for="exampleInputEmail1">First Name</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
       </div>
       <div class="form-group">
         <label for="exampleInputEmail1">Last Name</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        <input type="text" class="form-control" placeholder="Last Name">
       </div>
         <div class="form-group">
         <label for="exampleInputEmail1">Billing Address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        <input type="text" class="form-control" placeholder="Billing Address">
       </div>
         <div class="form-group">
         <label for="exampleInputEmail1">Billing Address Line 2</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        <input type="text" class="form-control" placeholder="Billing Address Line 2">
       </div>
         <div class="form-group">
         <label for="exampleInputEmail1">City</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        <input type="text" class="form-control" placeholder="City">
       </div>
         <div class="form-group">
         <label for="exampleInputEmail1">State</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        <input type="text" class="form-control" placeholder="State">
       </div>
         <div class="form-group">
         <label for="exampleInputEmail1">Zipcode</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="text">
       </div>
-        <div class="form-group">
+        <div class="form-group form-inline">
         <label for="exampleInputEmail1">Card Number</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-      </div>
-        <div class="form-group">
+        <input type="text" class="form-control" placeholder="1234-1234-1234-1234">
+        <label for="exampleInputEmail1">Expiry Date</label>
+        <input type="text" class="form-control" placeholder="06/15">
         <label for="exampleInputEmail1">CVC</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Exp</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        <input type="text" class="form-control" placeholder="432">
       </div>
       <button type="submit" ng-click="submit()" class="btn btn-default">Submit</button>
     </form>

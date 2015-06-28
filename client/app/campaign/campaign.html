@@ -1,15 +1,21 @@
 <div class="col-md-10 col-md-offset-1">
+  <div ng-include="'components/navbar/navbar.html'"></div>
+
+  <header class="hero-unit" id="banner">
+    <div class="container">
+      <h1>Hi Kelly!</h1>
+      <p class="lead">Make Your Donation Below</p>
+      <!--INSERT LOGO HERE-->
+    </div>
+  </header>
 
   <div class="row content">
     <div class="col-md-6 col-sm-6">
       <img ng-src="{{campaign.image}}" alt="..." class="img-rounded">
       <h3>{{campaign.title}}</h3>
-        <p>{{campaign.pitch}}</p>
-      </div><!--end col-md-6 col-sm-6-->
-      <div class="col-md-6 col-sm-6">
+      <p>{{campaign.pitch}}</p>
         <h3>Fundraising Goal <strong> {{campaign.goal | currency}}</strong></h3>
         <p>Donec ultricies id arcu eu semper. Sed et nisl non nisl ullamcorper sollicitudin eget ac neque. Curabitur ullamcorper elementum mi, vel tempus urna consectetur vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam faucibus et ligula id dictum. Nunc ante quam, gravida et ornare nec, fermentum eu lectus. Aenean sagittis libero non est pulvinar, quis rutrum lacus vehicula. Vivamus aliquet, ex ac placerat rutrum, tortor magna scelerisque est, tempor fermentum neque odio non metus. Cras laoreet dolor a massa dapibus semper.</p>
-
         <div class="dropdown">
           <a ng-href="/donate/{{campaign._id}}" class="btn btn-primary">Donate Now!</a>
         <h3>Total Amount Raised:</h3>
@@ -25,5 +31,13 @@
     </div><!--end col-md-6 col-sm-6-->
   </div><!--end row content-->
 
+<!--  Footer Area-->
+  <div class="row footer">
+    <div class="col-xs-12 text-center">
+      <p>&copy; 2015 FundNation.</p>
+      <p class="p">Demo by Sarry Zheng, Sarah Kwak, Josie Zocca, Kelly Luce</a>.</p>
+    </div><!--end col-xs-12 text-center-->
+  </div><!--end row footer-->
 
 </div>
+
