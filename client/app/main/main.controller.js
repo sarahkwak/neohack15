@@ -7,7 +7,7 @@ angular.module('hacksApp')
 
 
     $http.get('/api/campaigns/').success(function(awesomeThings) {
-      console.log(awesomeThings)
+      console.log(awesomeThings);
       $scope.awesomeThings = awesomeThings;
     });
 
