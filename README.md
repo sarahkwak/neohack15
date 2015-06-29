@@ -1,8 +1,8 @@
-#NeoHack
+#NeoHack15 - Fundnation
 
 
-##Schema
-#Name of Organization 
+##The original application was build in gitbucket:
+https://bitbucket.org/kluce/neohack
 
 - Dream Corps International
 
@@ -10,7 +10,7 @@
 
 - Youth Speaks
 
-#Organization project title   
+#Organization project title
 
 - Build libraries in rural China
 
@@ -24,8 +24,8 @@
 - $5,000
 
 #Fundraising Pitch
-- Help rebuild one of the oldest and historical 
-fundraising pitch - string ie. 
+- Help rebuild one of the oldest and historical
+fundraising pitch - string ie.
 about the project - text
 image
 
